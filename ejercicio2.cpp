@@ -9,6 +9,7 @@ b.1 nombre de la editorial (25 caracteres)    b.2 código de la editorial (1..20
 c) un archivo, ”Consultas.dat”, de consultas realizadas durante el primer semestre del año. Los diferentes libros
 consultados no superan los 1000, y el diseño del registro es el siguiente:
 c.1 código del libro    c.2 fecha de consulta (aaaammdd)
+
 Se pide realizar la metodología necesaria para obtener un programa que:
 1) Emita un listado con los libros que tuvieron como mínimo 20 consultas en cada mes del semestre, con el
 siguiente diseño, ordenado por código:
@@ -29,5 +30,7 @@ using namespace std;
 
 int main()
 {
+  punto1();
+  punto2();
   return 0;
 }
